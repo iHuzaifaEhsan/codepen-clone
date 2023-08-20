@@ -1,0 +1,87 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main{
+    background-color: black;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(63, 60, 60);
+}
+
+#logo{
+    color: white;
+    cursor: pointer;
+}
+
+#sign-up{
+    padding: 1.5vw;
+    border: none;
+    border-radius: 2px;
+    background-color: #47cf73;
+    color: white;
+    cursor: pointer;
+}
+
+#log-in{
+    padding: 1.5vw;
+    border: none;
+    border-radius: 2px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.code{
+    margin-top: 1px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.html,.css,.js{
+    border: 1px solid black;
+    background-color: grey;
+    height: 100%;
+    width: 33.3%;
+}
+
+.html nav{
+    background-color: #47cf73;
+    height: 5vh;
+}
+
+.css nav{
+    background-color: #47cf73;
+    height: 5vh;
+}
+
+.js nav{
+    background-color: #47cf73;
+    height: 5vh;
+}
+
+.output{
+    margin-top: 0.3vh;
+    height: 41.6vh;
+    background-color: rgb(202, 198, 141);
+}
+
+.code nav{
+    color: white;
+    font-family: ;
+}

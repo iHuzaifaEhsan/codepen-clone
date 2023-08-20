@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+    .code{
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+    }
+    .html,.css,.js{
+        width: 97%;
+    }
+  }
